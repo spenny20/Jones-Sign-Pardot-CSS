@@ -79,6 +79,7 @@ form.form input.text.join-first-input {
 form.form textarea.standard {
   margin-bottom: 32px;
   padding-bottom: 40px;
+  width: 100%;
   border-top-style: none;
   border-right-style: none;
   border-bottom-color: #325085;
