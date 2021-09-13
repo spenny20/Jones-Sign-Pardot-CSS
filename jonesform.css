@@ -102,12 +102,12 @@ form.form p.submit input{
   align-items: center;
   border-style: none;
   border-radius: 0px;
-  background-color: #1a3056;
+  background-color: #fff;
   background-image: none;
   -webkit-transition: box-shadow 600ms ease, border-color 600ms ease, color 600ms ease, background-color 600ms ease;
   transition: box-shadow 600ms ease, border-color 600ms ease, color 600ms ease, background-color 600ms ease;
   font-family: 'Roboto Condensed', sans-serif;
-  color: #fff;
+  color: #1a3056;
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
