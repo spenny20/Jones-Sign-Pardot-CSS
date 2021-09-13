@@ -16,6 +16,7 @@ form.form p{
 
 .form.form input.text {
   height: 48px;
+  width: 100%;
   margin-bottom: 32px;
   padding: 5px 0px 10px;
   border-style: none none solid;
