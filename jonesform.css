@@ -92,7 +92,6 @@ form.form textarea.standard:hover {
 }
 
 form.form p.submit input{
-  padding: 14px 20px 14px 24px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
