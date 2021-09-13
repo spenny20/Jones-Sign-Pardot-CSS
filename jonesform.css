@@ -83,6 +83,7 @@ form.form textarea.standard {
   border-right-style: none;
   border-bottom-color: #325085;
   border-left-style: none;
+  background-color: transparent;
 }
 
 form.form textarea.standard:hover {
