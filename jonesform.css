@@ -1,21 +1,17 @@
-form.form{
-  display: flex;
-  flex-wrap: wrap;
+form.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
 }
 
 form.form p{
-  width: 48%;
+  width: 100%;
+  grid-auto-flow: row;
 }
-
-@media only screen and (max-width: 479px) {
-form.form p{
-    width: 100%;
-  }
-}
-
 
 .form.form input.text {
   height: 48px;
+  position: relative;
   width: 100%;
   margin-bottom: 32px;
   padding-right: 20px;
@@ -116,4 +112,9 @@ form.form p.submit input{
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.form-field  Form_Submission_Comments_Log pd-textarea required{
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
